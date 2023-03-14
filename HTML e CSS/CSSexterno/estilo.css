@@ -1,0 +1,89 @@
+/* Importação da fonte baixada */
+@font-face{
+	font-family:DancingScript;
+	src:  url(DancingScript.ttf);
+}
+
+#square{
+	font-family: DancingScript; /* Aplicação da fonte */
+	font-size: 30px;
+
+	width: auto;
+	height: auto;
+	border-style: dotted; /* solid */
+	border-width: 2px;
+	border-color: purple;
+
+	background-color: paleturquoise;
+
+	/*margin-left: 150px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 200px;*/
+
+	/*margin: 100px ;*/
+    /*	    top  right bottom left */
+	margin: 100px 200px 0px 150px;
+
+	padding-top: 50px;
+	padding-left: 545px;
+	padding-right: 545px;
+	padding-bottom: 50px;
+
+	/*padding: 40px 165px 20px 40px;*/
+}
+
+#circle{
+	width: 200px;
+	height: 200px;
+
+	border: solid 5px palevioletred;
+	border-radius: 115px;
+
+	margin: auto;
+
+	background-color: mediumpurple;
+
+	text-align: center;
+	margin-bottom: 50px;
+
+	font-family: DancingScript;
+	font-size: 30px;
+}
+
+#rectangle{
+	width: 260px;
+	height: 260px;
+
+	margin: auto;
+
+	border: solid 5px plum;
+	border-radius: 50px;
+
+	text-align: center; /* horizontal */
+	line-height: 260px; /* vertical */
+}
+
+#banner{
+
+	border: solid 4px indianred;
+	width: 230px;
+	height: 220px;
+
+	margin: auto;
+
+	background: darksalmon;
+
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+}
+
+#titulo{
+	align-self: center;
+}
+
+body{
+	font-family: DancingScript;
+}

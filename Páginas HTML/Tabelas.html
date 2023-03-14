@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title> Tabelas em HTML </title>
+	<style>
+		tabela{
+			width:  50%;
+		}
+		tr{
+			color: purple;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h2> Criando tabelas em HTML </h2>
+	</header>
+	<hr>
+	<section>
+		<table border="2">
+			<caption>
+				Cursos e turmas do Amélia
+			</caption>
+			<tr>
+				<th> Informática </th>
+				<th> Administração </th>
+				<th> Enfermagem </th>
+			</tr>
+			<tr>
+				<td> 1º ano I </td>
+				<td> 1º ano A </td>
+				<td> 1º ano E </td>
+			</tr>
+			<tr>
+				<td> 2º ano I </td>
+				<td> 2º ano A </td>
+				<td> 2º ano E </td>
+			</tr>
+			<tr>
+				<td> 3º ano I </td>
+				<td> 3º ano A </td>
+				<td> 3º ano E </td>
+			</tr>	
+		</table>
+		<hr>
+
+		<table border="2">
+			<caption>
+				Mesclando Linhas e Colunas
+			</caption>
+			<tr>
+				<th> Aréa </th>
+				<th colspan="3"> Cursos </th>
+			</tr>
+			<tr>
+				<td> TI </td>
+				<td> Tec Informática </td>
+				<td> Sistemas de Informações </td>
+				<td> Redes </td>
+			</tr>
+		</table>
+		<hr>
+
+		<table border="2">
+			<caption>
+				Tabela de pesquisa
+			</caption>
+			<tr>
+				<th> Aréa </th>
+				<th colspan="3"> Cursos </th>
+			</tr>
+			<tr>
+				<td rowspan="3"> TI </td>
+				<td> Tec Informática </td>
+			</tr>
+			<tr>
+				<td> Sistemas de Informações </td>
+			</tr>
+			<tr>
+				<td> Redes </td>
+			</tr>
+		</table>
+	</section>
+	<hr>
+	<footer> 
+		Aula de Tabelas 
+		<!-- Glosário -->
+		<!-- <tr> cria uma linha na tabela -->
+		<!-- <th> e <td> criam colunas(células), sendo <th> para cabeçalho e <td> para conteúdo. -->
+		<!-- Atributos colspan e rowspan para mesclar colunas e linhas respectivamente. -->
+	</footer>
+</body>
+</html>

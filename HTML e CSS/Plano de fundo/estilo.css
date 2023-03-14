@@ -1,0 +1,51 @@
+body{
+	background-image: url("universo.jpg");
+	
+	background-repeat: no-repeat;
+
+	/*background-size: cover;*/
+	/*background-size: 100%;*/
+
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+
+	color: blueviolet;
+	font-size: 20px;
+}
+
+header{
+	border-bottom: 2px solid white;
+	height: 50vh;
+}
+
+section{
+	border-bottom: 2px solid ghostwhite;
+	height: 50vh;
+}
+
+footer{
+	border-bottom: 2px solid white;
+	height: 50vh;
+}
+
+.galeria{
+	display: flex;
+}
+
+.item{
+	border: 1px dotted ghostwhite;
+	width: 33vw;
+	height: 280px;
+}
+
+.img1{
+	background-image: url("lua08.jpg");
+}
+
+.img2{
+	background-image: url("img.jpg");
+}
+
+.img3{
+	background-image: url("img1.jpg");
+}
